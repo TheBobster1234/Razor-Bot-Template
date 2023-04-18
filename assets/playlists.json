@@ -1,0 +1,2422 @@
+[
+    {
+        "name": "VK Play",
+        "value": "Playlist_VK_Play"
+    },
+    {
+        "name": "Creative!",
+        "value": "Playlist_VK_Edit"
+    },
+    {
+        "name": "Impostors (Voice)",
+        "value": "Playlist_MoleGameVoice"
+    },
+    {
+        "name": "Impostors",
+        "value": "Playlist_MoleGame"
+    },
+    {
+        "name": "Save the World",
+        "value": "Playlist_Campaign"
+    },
+    {
+        "name": "Gameplay Test No Build Duos",
+        "value": "Playlist_ItemTest_NoBuild"
+    },
+    {
+        "name": "Zero Build - Duos",
+        "value": "Playlist_NoBuildBR_Duo"
+    },
+    {
+        "name": "Zero Build - Duos",
+        "value": "Playlist_Bots_NoBuildBR_Duo"
+    },
+    {
+        "name": "Artemis Solo",
+        "value": "Playlist_DefaultSolo_Artemis"
+    },
+    {
+        "name": "Solo",
+        "value": "Playlist_DefaultSolo_FFA"
+    },
+    {
+        "name": "Zero Build - Solo",
+        "value": "Playlist_NoBuildBR_Solo"
+    },
+    {
+        "name": "Zero Build - Solo",
+        "value": "Playlist_Bots_NoBuildBR_Solo"
+    },
+    {
+        "name": "Solo",
+        "value": "Playlist_DefaultSolo"
+    },
+    {
+        "name": "Squads",
+        "value": "Playlist_DefaultSquad_FFA"
+    },
+    {
+        "name": "Artemis Squads",
+        "value": "Playlist_DefaultSquad_Artemis"
+    },
+    {
+        "name": "Zero Build - Squads",
+        "value": "Playlist_NoBuildBR_Squad"
+    },
+    {
+        "name": "Zero Build - Squads",
+        "value": "Playlist_Bots_NoBuildBR_Squad"
+    },
+    {
+        "name": "Squads",
+        "value": "Playlist_DefaultSquad"
+    },
+    {
+        "name": "Duos",
+        "value": "Playlist_DefaultDuo_FFA"
+    },
+    {
+        "name": "Artemis Duos",
+        "value": "Playlist_DefaultDuo_Artemis"
+    },
+    {
+        "name": "Duos",
+        "value": "Playlist_DefaultDuo"
+    },
+    {
+        "name": "High Explosives",
+        "value": "Playlist_HighExplosives_Solo"
+    },
+    {
+        "name": "High Explosives",
+        "value": "Playlist_HighExplosives_Squads"
+    },
+    {
+        "name": "Solid Gold",
+        "value": "Playlist_SolidGold_Solo"
+    },
+    {
+        "name": "Solid Gold",
+        "value": "Playlist_SolidGold_Squads"
+    },
+    {
+        "name": "Solid Gold",
+        "value": "Playlist_SolidGold_Trios"
+    },
+    {
+        "name": "Final Five",
+        "value": "Playlist_Fortnite"
+    },
+    {
+        "name": "Solid Gold",
+        "value": "Playlist_SolidGold_Duos"
+    },
+    {
+        "name": "Varg",
+        "value": "Playlist_Varg"
+    },
+    {
+        "name": "Creative",
+        "value": "Playlist_PlaygroundV2"
+    },
+    {
+        "name": "Creative 16 Player 2v14",
+        "value": "Playlist_Creative_LTM_16_Coop"
+    },
+    {
+        "name": "Creative 8 Squad Battle 3",
+        "value": "Playlist_Creative_LTM_40_v3"
+    },
+    {
+        "name": "SourDropper: 2",
+        "value": "Playlist_Creative_SourDropper_2_BF"
+    },
+    {
+        "name": "BoxFight Arena",
+        "value": "Playlist_ShowdownAlt_BlueFlatline_1v1"
+    },
+    {
+        "name": "Creative 8 Squad Battle",
+        "value": "Playlist_Creative_LTM_40_v1"
+    },
+    {
+        "name": "Zone Wars",
+        "value": "Playlist_Creative_ZebraWallet_Random2"
+    },
+    {
+        "name": "Creative Team Battle",
+        "value": "Playlist_Creative_TDM_v1"
+    },
+    {
+        "name": "Retribution",
+        "value": "Playlist_Creative_Hyena_Z"
+    },
+    {
+        "name": "Creative Map 60",
+        "value": "Playlist_Creative_Map_60"
+    },
+    {
+        "name": "Knock Town",
+        "value": "Playlist_Creative_KaleTofu"
+    },
+    {
+        "name": "World Run",
+        "value": "Playlist_Creative_Squad_Battle_8_B"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_ZebraWallet_Solos"
+    },
+    {
+        "name": "Creative 16 Player 2v14",
+        "value": "Playlist_Creative_LTM_16_2v14"
+    },
+    {
+        "name": "CRAB",
+        "value": "Playlist_Creative_CRAB"
+    },
+    {
+        "name": "Dropper: 1",
+        "value": "Playlist_Creative_Dropper_1"
+    },
+    {
+        "name": "Soccer Tournament",
+        "value": "Playlist_Creative_LTM_Squad_Battle_16_A"
+    },
+    {
+        "name": "Sky Station Showdown",
+        "value": "Playlist_Creative_Squad_Battle_32_A"
+    },
+    {
+        "name": "3v3v3v3",
+        "value": "Playlist_Creative_Hyena_T"
+    },
+    {
+        "name": "SourDropper",
+        "value": "Playlist_Creative_SourDropper_1_BF_Partyof3"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Playtest_2v2"
+    },
+    {
+        "name": "NICK EH 30 ZONE WARS (Duos)",
+        "value": "Playlist_Creative_LTM_NE30ZW"
+    },
+    {
+        "name": "Creative Solo 2",
+        "value": "Playlist_Creative_LTM_Solo_2"
+    },
+    {
+        "name": "Prop Hunt Infinite",
+        "value": "Playlist_Creative_LTM_PropHuntInfinite"
+    },
+    {
+        "name": "SourDropper",
+        "value": "Playlist_Creative_SourDropper_1"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_SourDrop_2"
+    },
+    {
+        "name": "Zone Wars: Downhill River",
+        "value": "Playlist_Creative_ZebraWallet_DH"
+    },
+    {
+        "name": "Zone Wars",
+        "value": "Playlist_Creative_ZebraWallet_Random_Squads"
+    },
+    {
+        "name": "Downtown Drop",
+        "value": "Playlist_Creative_Vigilante"
+    },
+    {
+        "name": "Creative Team Battle v2",
+        "value": "Playlist_Creative_TDM_v2"
+    },
+    {
+        "name": "SourDropper",
+        "value": "Playlist_Creative_SourDropper_1_BF"
+    },
+    {
+        "name": "Vertigo",
+        "value": "Playlist_Creative_Splf"
+    },
+    {
+        "name": "ORANGE VS BLUE 100 (XL) GO GOATED",
+        "value": "Playlist_Creative_LTM_OVB100GG"
+    },
+    {
+        "name": "Zone Wars",
+        "value": "Playlist_Creative_ZebraWallet_Random_Duos"
+    },
+    {
+        "name": "Junkyard Juke",
+        "value": "Playlist_Creative_Squad_Battle_16_A"
+    },
+    {
+        "name": "SourDropper: 2",
+        "value": "Playlist_Creative_SourDropper_2"
+    },
+    {
+        "name": "Creative Solo 3",
+        "value": "Playlist_Creative_LTM_Solo_3"
+    },
+    {
+        "name": "Creative Solo 1",
+        "value": "Playlist_Creative_LTM_Solo_1"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Playtest_8v8"
+    },
+    {
+        "name": "BoxFight",
+        "value": "Playlist_Creative_BlueFlatline_1v1"
+    },
+    {
+        "name": "Creative Tournament Squad Rumble",
+        "value": "Playlist_ShowdownTournament_Squad_Battle_16"
+    },
+    {
+        "name": "Creative Map 16",
+        "value": "Playlist_Creative_Map_16"
+    },
+    {
+        "name": "Gun Fright",
+        "value": "Playlist_Creative_Hyena_G"
+    },
+    {
+        "name": "SourDropper: 2",
+        "value": "Playlist_Creative_SourDropper_2_Partyof3"
+    },
+    {
+        "name": "Prop Hunt",
+        "value": "Playlist_Creative_PuppyHugs"
+    },
+    {
+        "name": "Creative Squad 1",
+        "value": "Playlist_Creative_LTM_Squad_1"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_Duos_8v8"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Playtest_4x4"
+    },
+    {
+        "name": "BoxFight Tournament FFA",
+        "value": "Playlist_Showdown_BlueFlatline_FFA"
+    },
+    {
+        "name": "Beach Assault",
+        "value": "Playlist_Creative_BeachAssault"
+    },
+    {
+        "name": "World Run",
+        "value": "Playlist_Creative_Squad_Battle_16_B"
+    },
+    {
+        "name": "Zone Wars",
+        "value": "Playlist_Creative_ZebraWallet_Random_Solos"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_ZebraWallet_V"
+    },
+    {
+        "name": "The Hole FFA",
+        "value": "Playlist_Creative_LTM_TheHoleFFA"
+    },
+    {
+        "name": "CTF",
+        "value": "Playlist_Showdown_CanTheFeather"
+    },
+    {
+        "name": "BoxFight FFA",
+        "value": "Playlist_Creative_BlueFlatline_FFA"
+    },
+    {
+        "name": "World Run",
+        "value": "Playlist_Creative_Squad_Battle_32_B"
+    },
+    {
+        "name": "Creative Map 40",
+        "value": "Playlist_Creative_Map_40"
+    },
+    {
+        "name": "SourDropper",
+        "value": "Playlist_Showdown_SourDropper"
+    },
+    {
+        "name": "Mansion of Power",
+        "value": "Playlist_Creative_Hyena_M"
+    },
+    {
+        "name": "Creative 16 Player FFA",
+        "value": "Playlist_Creative_LTM_16_FFA"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_ZebraWallet_Trios"
+    },
+    {
+        "name": "Zone Wars",
+        "value": "Playlist_Creative_ZebraWallet_Random_Trios"
+    },
+    {
+        "name": "Creative Map 100",
+        "value": "Playlist_Creative_Map_100"
+    },
+    {
+        "name": "Echo Point",
+        "value": "Playlist_Creative_EpicPanda"
+    },
+    {
+        "name": "Lockdown - Horde Survival",
+        "value": "Playlist_Creative_LTM_LockdownHorde"
+    },
+    {
+        "name": "Puppy Hugs 40",
+        "value": "Playlist_Creative_PuppyHugs_40"
+    },
+    {
+        "name": "Quad Goals",
+        "value": "Playlist_Creative_QuadGoals"
+    },
+    {
+        "name": "SourDropper: 2",
+        "value": "Playlist_Creative_SourDropper_2_BF_Partyof3"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_SourDrop_1"
+    },
+    {
+        "name": "Creative 4Player FFA 1",
+        "value": "Playlist_Creative_LTM_Squad_FFA_1"
+    },
+    {
+        "name": "Dropper: 2",
+        "value": "Playlist_Creative_Dropper_2"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Drop_1"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Playtest_FFA_4"
+    },
+    {
+        "name": "SourDropper",
+        "value": "Playlist_Creative_SourDropper_1_Partyof3"
+    },
+    {
+        "name": "Creative 16 Player 8v8",
+        "value": "Playlist_Creative_LTM_16_8v8"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_ZebraWallet_Duos"
+    },
+    {
+        "name": "Creative Free For All",
+        "value": "Playlist_Creative_FFA_v1"
+    },
+    {
+        "name": "Creative Tournament 16 Player Coop",
+        "value": "Playlist_ShowdownTournament_16_Coop"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_ZebraWallet_Squads"
+    },
+    {
+        "name": "LTE",
+        "value": "Playlist_Creative_LTE"
+    },
+    {
+        "name": "BoxFight Tournament",
+        "value": "Playlist_Showdown_BlueFlatline_1v1"
+    },
+    {
+        "name": "Zone Wars",
+        "value": "Playlist_Creative_ZebraWallet_Random"
+    },
+    {
+        "name": "Creative Tournament Rumble - Ground War",
+        "value": "Playlist_ShowdownTournament_16_8v8"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Drop_2"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Playtest_FFA_8"
+    },
+    {
+        "name": "Creative Team Battle",
+        "value": "Playlist_Creative_LTM_v1"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Playtest_FFA_16"
+    },
+    {
+        "name": "Creative 4Player FFA 2",
+        "value": "Playlist_Creative_LTM_Squad_FFA_2"
+    },
+    {
+        "name": "Zone Wars: Vortex",
+        "value": "Playlist_Creative_Playtest_Coop_4"
+    },
+    {
+        "name": "Creative 40 Player FFA",
+        "value": "Playlist_Creative_LTM_40_FFA"
+    },
+    {
+        "name": "Zone Wars: Colosseum",
+        "value": "Playlist_Creative_ZebraWallet_A"
+    },
+    {
+        "name": "Zone Wars: Desert",
+        "value": "Playlist_Creative_ZebraWallet_D"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_9"
+    },
+    {
+        "name": "3:2 ZONE WARS + BOX FIGHT",
+        "value": "Playlist_Creative_LTM_ZWBF"
+    },
+    {
+        "name": "EASY LIFE AT THE O2",
+        "value": "Playlist_Creative_LTM_O2Exp"
+    },
+    {
+        "name": "Hotel Fight",
+        "value": "Playlist_Creative_LTM_HotelFight"
+    },
+    {
+        "name": "Spy Tycoon",
+        "value": "Playlist_Creative_LTM_SpyTycoon"
+    },
+    {
+        "name": "Spy Within: Steamboat",
+        "value": "Playlist_Creative_LTM_Spy_Steam"
+    },
+    {
+        "name": "Top Vehicle Games Showcase",
+        "value": "Playlist_Creative_LTM_VehicleHub"
+    },
+    {
+        "name": "Pro Billionaire Tycoon",
+        "value": "Playlist_Creative_LTM_Tycoon"
+    },
+    {
+        "name": "World's End Millionaire Mansion!",
+        "value": "Playlist_Creative_LTM_WorldsEndMillionaireMansion"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_17"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_2"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_14"
+    },
+    {
+        "name": "Blitz Red Vs Blue",
+        "value": "Playlist_Creative_LTM_BlitzRVB"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_19"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_18"
+    },
+    {
+        "name": "Living Room PVP",
+        "value": "Playlist_Creative_LTM_LivingRoomPVP"
+    },
+    {
+        "name": "2x Zone Wars",
+        "value": "Playlist_Creative_LTM_2XZoneWars"
+    },
+    {
+        "name": "Fort Wars",
+        "value": "Playlist_Creative_LTM_FortWars"
+    },
+    {
+        "name": "Spy Within: Gilded Galaxy",
+        "value": "Playlist_Creative_LTM_Spy_Gilded"
+    },
+    {
+        "name": "SURVIVE THE CITY- NO PARKING",
+        "value": "Playlist_Creative_LTM_SurviveTheCity"
+    },
+    {
+        "name": "Mars Tycoon",
+        "value": "Playlist_Creative_LTM_MarsTycoon"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_24"
+    },
+    {
+        "name": "Snipers vs Runners",
+        "value": "Playlist_Creative_LTM_Doll"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_23"
+    },
+    {
+        "name": "SURVIVAL SIMULATOR",
+        "value": "Playlist_Creative_LTM_SurvivalSim"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_5"
+    },
+    {
+        "name": "Pandvil Box Fights",
+        "value": "Playlist_Creative_LTM_PandvilBoxfights"
+    },
+    {
+        "name": "Clix Box Fights",
+        "value": "Playlist_Creative_LTM_ClixBF"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_4"
+    },
+    {
+        "name": "Worlds Collide: Hero Shooters - CTF",
+        "value": "Playlist_Creative_LTM_WorldsCollideCTF"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_Template_Random"
+    },
+    {
+        "name": "Tropical Thunder",
+        "value": "Playlist_Creative_LTM_TropicalThunder"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_10"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_21"
+    },
+    {
+        "name": "Gun Game: Mars",
+        "value": "Playlist_Creative_LTM_Mars"
+    },
+    {
+        "name": "16 Versus 16 DOMINATION",
+        "value": "Playlist_Creative_LTM_16v16Dom"
+    },
+    {
+        "name": "Tropical Zone Wars",
+        "value": "Playlist_Creative_LTM_Tropical"
+    },
+    {
+        "name": "Pro 2",
+        "value": "Playlist_Creative_LTM_PRO2"
+    },
+    {
+        "name": "VOLCANO WARS",
+        "value": "Playlist_Creative_LTM_VolcanoWars"
+    },
+    {
+        "name": "BIOS ZONE WARS TRIO 1.0 - CUSTOM TEAMS",
+        "value": "Playlist_Creative_LTM_BIOSZWTrio"
+    },
+    {
+        "name": "Wall Wars",
+        "value": "Playlist_Creative_LTM_WallWars"
+    },
+    {
+        "name": "Spy Within: Midas' Museum",
+        "value": "Playlist_Creative_LTM_Spy_Midas"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_11"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_8"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_25"
+    },
+    {
+        "name": "Red Vs Blue ( XS )",
+        "value": "Playlist_Creative_LTM_RVBXS"
+    },
+    {
+        "name": "Prison Breakout",
+        "value": "Playlist_Creative_LTM_FortniteJB"
+    },
+    {
+        "name": "Red VS Blue GO GOATED! 8v8",
+        "value": "Playlist_Creative_LTM_RVBGG8v8"
+    },
+    {
+        "name": "The Crossover: Court Crashers",
+        "value": "Playlist_Creative_LTM_CourtCrashers"
+    },
+    {
+        "name": "MIG 8v8",
+        "value": "Playlist_Creative_LTM_MIG8v8"
+    },
+    {
+        "name": "Pro Fishing",
+        "value": "Playlist_Creative_LTM_ProFishing"
+    },
+    {
+        "name": "FinestYT's Realistic (2v2 MatchMaking)",
+        "value": "Playlist_Creative_LTM_FinestYTReal2v2"
+    },
+    {
+        "name": "3V3V3V3! GO GOATED (SLOW-MO ENABLED)",
+        "value": "Playlist_Creative_LTM_GoGoated3v3"
+    },
+    {
+        "name": "Zombie Island",
+        "value": "Playlist_Creative_LTM_ZombieIsland"
+    },
+    {
+        "name": "Dark Mines - Murder Mystery",
+        "value": "Playlist_Creative_LTM_Mystery"
+    },
+    {
+        "name": "Fishtopia  Fish Tycoon",
+        "value": "Playlist_Creative_LTM_FishtopiaFishTycoon"
+    },
+    {
+        "name": "CAR ROYALE - TEAM RUMBLE!",
+        "value": "Playlist_Creative_LTM_CarRoyaleRumble"
+    },
+    {
+        "name": "The Underworld - Gun Game",
+        "value": "Playlist_Creative_LTM_Underworld"
+    },
+    {
+        "name": "Sky Wars Red VS Green DINOSAURS",
+        "value": "Playlist_Creative_LTM_RVGDinosaurs"
+    },
+    {
+        "name": null,
+        "value": "Playlist_Creative_LTM_Outbreak"
+    },
+    {
+        "name": "Fortnite Fashion Show",
+        "value": "Playlist_Creative_LTM_Fashion"
+    },
+    {
+        "name": "222 Levels Default Deathrun",
+        "value": "Playlist_Creative_LTM_222DeathRun"
+    },
+    {
+        "name": "BHE 1v1 Build fights",
+        "value": "Playlist_Creative_LTM_1V1BF"
+    },
+    {
+        "name": "EASY LIFE AT THE O2",
+        "value": "Playlist_Creative_LTM_O2Exp16"
+    },
+    {
+        "name": "Zone Wars With Placement Points",
+        "value": "Playlist_Creative_LTM_ZWPlacement"
+    },
+    {
+        "name": "The Pit",
+        "value": "Playlist_Creative_LTM_Pit"
+    },
+    {
+        "name": "WATERMANIA - ULTIMATE SUMMER CLASH",
+        "value": "Playlist_Creative_LTM_WatermaniaUltimate"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_7"
+    },
+    {
+        "name": "SIMPLE TRIOs ZoneWars (40 Players)",
+        "value": "Playlist_Creative_LTM_SimpleTriosZoneWars"
+    },
+    {
+        "name": "Skyfall: Box Fight",
+        "value": "Playlist_Creative_LTM_Skyfall"
+    },
+    {
+        "name": "Infinite Level Default Deathrun",
+        "value": "Playlist_Creative_LTM_InfiniteDefaultDeathRun"
+    },
+    {
+        "name": "PIRATES OF FORTILLA",
+        "value": "Playlist_Creative_LTM_PiratesOF"
+    },
+    {
+        "name": "TUMBLE LADS",
+        "value": "Playlist_Creative_LTM_Tumble"
+    },
+    {
+        "name": "Red vs Blue: OG Prison",
+        "value": "Playlist_Creative_LTM_RVBOGPrison"
+    },
+    {
+        "name": "Wildlands Survival",
+        "value": "Playlist_Creative_LTM_WildlandsSurvival"
+    },
+    {
+        "name": "Theme Park",
+        "value": "Playlist_Creative_LTM_ThemeParkSummerEvent"
+    },
+    {
+        "name": "Realistic Solos",
+        "value": "Playlist_Creative_LTM_Realistic"
+    },
+    {
+        "name": "ZONE WARS: WATER PARK",
+        "value": "Playlist_Creative_LTM_Waterpark"
+    },
+    {
+        "name": "Spy Within: Gold Mansion",
+        "value": "Playlist_Creative_LTM_Spy_Gold"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_22"
+    },
+    {
+        "name": "Capture The Flag",
+        "value": "Playlist_Creative_LTM_LavaCTF"
+    },
+    {
+        "name": "Primal Rumble",
+        "value": "Playlist_Creative_LTM_PrimalRumble"
+    },
+    {
+        "name": "PRO RED VS BLUE",
+        "value": "Playlist_Creative_LTM_ProRVB100"
+    },
+    {
+        "name": "VERTIGO DEATHRUNS",
+        "value": "Playlist_Creative_LTM_VertigoDR"
+    },
+    {
+        "name": "16v16 DESERT CHAOS - DOMINATION",
+        "value": "Playlist_Creative_LTM_16v16DesertDomination"
+    },
+    {
+        "name": "OUTLAW'S HAVEN",
+        "value": "Playlist_Creative_LTM_OutlawsHaven"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_6"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_20"
+    },
+    {
+        "name": "Sunrise City - Horde Survival",
+        "value": "Playlist_Creative_LTM_SunriseHorde"
+    },
+    {
+        "name": "Summer Splash Deathrun",
+        "value": "Playlist_Creative_LTM_Summer"
+    },
+    {
+        "name": "Containment",
+        "value": "Playlist_Creative_LTM_Containment"
+    },
+    {
+        "name": "Red/Green/Yellow/Purple Car fight",
+        "value": "Playlist_Creative_LTM_RGYPCarFight"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_12"
+    },
+    {
+        "name": null,
+        "value": "Playlist_Creative_LTM_GVP"
+    },
+    {
+        "name": "JDuth 100 Level Default Deathrun",
+        "value": "Playlist_Creative_LTM_JDuth100"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_15"
+    },
+    {
+        "name": null,
+        "value": "Playlist_Creative_LTM_PHModernMall"
+    },
+    {
+        "name": "March Through Time",
+        "value": "Playlist_Creative_LTM_TheMarch"
+    },
+    {
+        "name": "Freaky Flights - Air Royale",
+        "value": "Playlist_Creative_LTM_FreakyFlights"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_Template"
+    },
+    {
+        "name": null,
+        "value": "Playlist_Creative_LTM_PWRTinyTown"
+    },
+    {
+        "name": "Sniper Noscope Map",
+        "value": "Playlist_Creative_LTM_OneShot"
+    },
+    {
+        "name": "Pro 100",
+        "value": "Playlist_Creative_LTM_PRO100"
+    },
+    {
+        "name": "EASY LIFE AT THE O2",
+        "value": "Playlist_Creative_LTM_O2Exp12"
+    },
+    {
+        "name": "Bolt Bash",
+        "value": "Playlist_Creative_LTM_BoltBash"
+    },
+    {
+        "name": "Mystery at Croft Manor",
+        "value": "Playlist_Creative_LTM_CM"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_16"
+    },
+    {
+        "name": "Rockets vs Cars",
+        "value": "Playlist_Creative_LTM_RocketsVsCars"
+    },
+    {
+        "name": "Spy Within: Holiday Workshop",
+        "value": "Playlist_Creative_LTM_Spy_Santa"
+    },
+    {
+        "name": "GHOST VS SHADOW PRO",
+        "value": "Playlist_Creative_LTM_GhostVsShadowPro"
+    },
+    {
+        "name": "Ritual's Skydock Boxfights!",
+        "value": "Playlist_Creative_LTM_Skydock"
+    },
+    {
+        "name": "PWR Salvage Survival",
+        "value": "Playlist_Creative_LTM_PWR_SalvageSurvival"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_1"
+    },
+    {
+        "name": "Spy Within: Midnight City",
+        "value": "Playlist_Creative_LTM_Spy_Crystal"
+    },
+    {
+        "name": "200 Level Default Deathrun",
+        "value": "Playlist_Creative_LTM_200LevelRun"
+    },
+    {
+        "name": "CITY ROYALE",
+        "value": "Playlist_Creative_LTM_CityRoyale"
+    },
+    {
+        "name": "16 V 16 Last Maze Domination",
+        "value": "Playlist_Creative_LTM_16v16LastMaze"
+    },
+    {
+        "name": "Zone Wars: PURGATORY",
+        "value": "Playlist_Creative_LTM_ZoneWarsP"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_13"
+    },
+    {
+        "name": null,
+        "value": "Playlist_Creative_LTM_Skyland"
+    },
+    {
+        "name": "RED VS BLUE 2.0",
+        "value": "Playlist_Creative_LTM_NewRVB2"
+    },
+    {
+        "name": "Shadow vs Ghost",
+        "value": "Playlist_Creative_LTM_ShadowVsGhost"
+    },
+    {
+        "name": "Brite City Mafia",
+        "value": "Playlist_Creative_LTM_BriteCityMafia"
+    },
+    {
+        "name": "Go Crazy Arena",
+        "value": "Playlist_Creative_LTM_GoCrazyArena"
+    },
+    {
+        "name": "Pro Red vs Blue Bounty",
+        "value": "Playlist_Creative_LTM_ProRVB"
+    },
+    {
+        "name": null,
+        "value": "Playlist_Creative_LTM_TideTycoonFishing"
+    },
+    {
+        "name": "Money Wars",
+        "value": "Playlist_Creative_LTM_Money"
+    },
+    {
+        "name": "Creator Showcase",
+        "value": "Playlist_Creative_LTM_DAD_3"
+    },
+    {
+        "name": null,
+        "value": "Playlist_Creative_LTM_ZooGunGame"
+    },
+    {
+        "name": "GREEN VS RED VS YELLOW VS BLUE",
+        "value": "Playlist_Creative_LTM_GvRvYvB"
+    },
+    {
+        "name": "Zodiac Library - Gun Game",
+        "value": "Playlist_Creative_LTM_ZodiacGG"
+    },
+    {
+        "name": "Survival Simulator (Desert)",
+        "value": "Playlist_Creative_LTM_SurvivalSimDesert"
+    },
+    {
+        "name": "Laser Tag Prop Hunt",
+        "value": "Playlist_Creative_LTM_Laser"
+    },
+    {
+        "name": "Fiend Slayer",
+        "value": "Playlist_Creative_LTM_FiendSlayer"
+    },
+    {
+        "name": "Fishy Mansion hide & seek",
+        "value": "Playlist_Creative_LTM_Fishy"
+    },
+    {
+        "name": "COLOR SWITCH",
+        "value": "Playlist_Creative_LTM_ColorSwitch"
+    },
+    {
+        "name": "Hide and Seek: Underwater Labs",
+        "value": "Playlist_Creative_LTM_Underwater"
+    },
+    {
+        "name": "ADVANCED RED VS BLUE",
+        "value": "Playlist_Creative_LTM_AdvancedRVB"
+    },
+    {
+        "name": "Pararoyale",
+        "value": "Playlist_Creative_LTM_Pararoyale"
+    },
+    {
+        "name": "FIREBALL - CAGEFIGHT/GUNGAME",
+        "value": "Playlist_Creative_LTM_CageFGG"
+    },
+    {
+        "name": "Red vs Blue Rumble",
+        "value": "Playlist_Creative_LTM_RVBRumble"
+    },
+    {
+        "name": "LOADOUT WARFARE - POSEIDON V",
+        "value": "Playlist_Creative_LTM_LoadoutWarfare"
+    },
+    {
+        "name": "Spy Within: Shopper's Delight",
+        "value": "Playlist_Creative_LTM_Spy_Shopper"
+    },
+    {
+        "name": "Pro FFA Arena - Fight!",
+        "value": "Playlist_Creative_LTM_ProFFAArena"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_23PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_12_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_23_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf2_14PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_11PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_3PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_29PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_6PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_26_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_5v5_Competitive"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_3PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_28_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf4_12PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_1v1_Competitive"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_20_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_33PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_35PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_8PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_44PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_27PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_34_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_14_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_6_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf2_12PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_12PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_34PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf2_16PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_16PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_14PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_46_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_36_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_29_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf3_15PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_21_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_7PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_16PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf3_9PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_10_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_7v7_Competitive"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_8_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_30_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_5PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_39PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_10PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_7_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_33_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_12PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_9PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_5_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_50PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_26PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_46PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_5PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_2v2_Competitive"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_24PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_47_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_41PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_11_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_16_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_41_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_14PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_25_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_44_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_42_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_43PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_35_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_22_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_9_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_4PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_43_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_45PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf3_12PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_2PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_50_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_22PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_48PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_4PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_31_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_37_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_28PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_4_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_24_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_40PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_7PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_49_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_27_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_47PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_49PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_39_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_32PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf2_10PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_9PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_13PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_20PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_48_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_32_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_3v3_Competitive"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_31PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_36PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_1PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_38PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf2_8PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_37PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf4_16PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_15PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_42PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_21PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_6PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_8v8_Competitive"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf2_6PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_2_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_13_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_1_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_8PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_4v4_Competitive"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_3_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_15PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_30PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_40_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_11PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_45_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_38_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_25PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_6v6_Competitive"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_13PlayersMax"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_10PlayerStandard"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_15_Player_No_MMS"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf2_8PlayersMax_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf2_16PlayersMax_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_TeamsOf4_16PlayersMax_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_8PlayersMax_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_4PlayersMax_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_16PlayersMax_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_Comp_FFA_10PlayersMax_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_10PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_50PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_42PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_11PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_3PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_7PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_27PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_45PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_32PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_46PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_47PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_8PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_24PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_38PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_26PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_36PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_21PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_4PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_29PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_49PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_1PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_40PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_39PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_9PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_37PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_48PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_25PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_2PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_28PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_13PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_33PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_22PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_44PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_12PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_23PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_41PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_16PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_30PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_35PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_15PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_20PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_43PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_6PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_31PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_34PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_14PlayerStandard_SB"
+    },
+    {
+        "name": "CREATIVE MATCHMAKING",
+        "value": "Playlist_Creative_MMS_5PlayerStandard_SB"
+    },
+    {
+        "name": "Creative",
+        "value": "Playlist_Playground"
+    },
+    {
+        "name": "Close Encounters",
+        "value": "Playlist_Close_Solo"
+    },
+    {
+        "name": "Close Encounters",
+        "value": "Playlist_Close_Duos"
+    },
+    {
+        "name": "Close Encounters",
+        "value": "Playlist_Close_Squads"
+    },
+    {
+        "name": "Close Encounters",
+        "value": "Playlist_Close_Trios"
+    },
+    {
+        "name": "Final Fight",
+        "value": "Playlist_Final_12"
+    },
+    {
+        "name": "Final Fight",
+        "value": "Playlist_Final_20"
+    },
+    {
+        "name": "Final Fight",
+        "value": "Playlist_Final_50"
+    },
+    {
+        "name": "Ground Game",
+        "value": "Playlist_Ground_Solo"
+    },
+    {
+        "name": "Ground Game",
+        "value": "Playlist_Ground_Duos"
+    },
+    {
+        "name": "Ground Game",
+        "value": "Playlist_Ground_Squads"
+    },
+    {
+        "name": "Ground Game",
+        "value": "Playlist_Ground_Trios"
+    },
+    {
+        "name": "Fly Explosives",
+        "value": "Playlist_FlyExplosives_Solo"
+    },
+    {
+        "name": "Fly Explosives",
+        "value": "Playlist_FlyExplosives_Duos"
+    },
+    {
+        "name": "Fly Explosives",
+        "value": "Playlist_FlyExplosives_Squads"
+    },
+    {
+        "name": "Solo",
+        "value": "Playlist_Fortnite_B_Solo"
+    },
+    {
+        "name": "Duos",
+        "value": "Playlist_Fortnite_B_Duos"
+    },
+    {
+        "name": "Squads",
+        "value": "Playlist_Fortnite_B_Squads"
+    },
+    {
+        "name": "Trios",
+        "value": "Playlist_Trios"
+    },
+    {
+        "name": "Zero Build - Trios",
+        "value": "Playlist_NoBuildBR_Trio"
+    },
+    {
+        "name": "Zero Build - Trios",
+        "value": "Playlist_Bots_NoBuildBR_Trio"
+    },
+    {
+        "name": "One Shot",
+        "value": "Playlist_ShowdownTournament_Low_Solo"
+    },
+    {
+        "name": "One Shot",
+        "value": "Playlist_Low_Solo"
+    },
+    {
+        "name": "One Shot",
+        "value": "Playlist_ShowdownTournament_Low_Duos"
+    },
+    {
+        "name": "One Shot",
+        "value": "Playlist_ShowdownTournament_Low_Trios"
+    },
+    {
+        "name": "One Shot",
+        "value": "Playlist_ShowdownTournament_Low_Squads"
+    },
+    {
+        "name": "One Shot",
+        "value": "Playlist_Low_Duos"
+    },
+    {
+        "name": "One Shot",
+        "value": "Playlist_Low_Squads"
+    },
+    {
+        "name": "Test Build",
+        "value": "Playlist_TestBuild_Duos"
+    },
+    {
+        "name": "Solid Gold",
+        "value": "Playlist_ShowdownAlt_SolidGold_Solo"
+    },
+    {
+        "name": "Test Build",
+        "value": "Playlist_TestBuild_Solo"
+    },
+    {
+        "name": "Test Build",
+        "value": "Playlist_TestBuild_Squads"
+    },
+    {
+        "name": "Team Rumble",
+        "value": "Playlist_Respawn_24"
+    },
+    {
+        "name": "Team Rumble",
+        "value": "Playlist_Respawn_24_Alt"
+    },
+    {
+        "name": "Party Royale",
+        "value": "Playlist_Papaya"
+    },
+    {
+        "name": "Party Royale",
+        "value": "Playlist_Papaya_Hermes"
+    },
+    {
+        "name": "Party Royale",
+        "value": "Playlist_PapayaSmall"
+    },
+    {
+        "name": "Party Royale",
+        "value": "Playlist_PapayaBig"
+    },
+    {
+        "name": "Unvaulted",
+        "value": "Playlist_Unvaulted_Solo"
+    },
+    {
+        "name": "Unvaulted",
+        "value": "Playlist_Unvaulted_Duos"
+    },
+    {
+        "name": "Unvaulted",
+        "value": "Playlist_Unvaulted_Squads"
+    },
+    {
+        "name": "Unvaulted",
+        "value": "Playlist_Unvaulted_Trios"
+    },
+    {
+        "name": "Sword Fight",
+        "value": "Playlist_Sword_Solo"
+    },
+    {
+        "name": "Sword Fight",
+        "value": "Playlist_Sword_Duos"
+    },
+    {
+        "name": "Sword Fight",
+        "value": "Playlist_Sword_Squads"
+    },
+    {
+        "name": "Love Shot",
+        "value": "Playlist_Love_Solo"
+    },
+    {
+        "name": "Love Shot",
+        "value": "Playlist_Love_Duos"
+    },
+    {
+        "name": "Love Shot",
+        "value": "Playlist_Love_Squads"
+    },
+    {
+        "name": "Floor Is Lava",
+        "value": "Playlist_Fill_Solo"
+    },
+    {
+        "name": "Floor Is Lava",
+        "value": "Playlist_Fill_Duos"
+    },
+    {
+        "name": "Floor Is Lava",
+        "value": "Playlist_Fill_Squads"
+    },
+    {
+        "name": "Heavy Metal",
+        "value": "Playlist_Heavy_Solo"
+    },
+    {
+        "name": "Heavy Metal",
+        "value": "Playlist_Heavy_Duos"
+    },
+    {
+        "name": "Heavy Metal",
+        "value": "Playlist_Heavy_Squads"
+    },
+    {
+        "name": "Prototype Testing",
+        "value": "Playlist_ItemTest"
+    },
+    {
+        "name": "Tutorial",
+        "value": "Playlist_Tutorial_1"
+    },
+    {
+        "name": "Tutorial",
+        "value": "Playlist_Tutorial_DefensiveBuilding"
+    },
+    {
+        "name": "Solo",
+        "value": "Playlist_Ox_Fortnite_B_Solo"
+    },
+    {
+        "name": "Duos",
+        "value": "Playlist_Ox_Fortnite_B_Duos"
+    },
+    {
+        "name": "Squads",
+        "value": "Playlist_Ox_Fortnite_B_Squads"
+    },
+    {
+        "name": "Solos",
+        "value": "Playlist_Intro_Apollo_NewPlayer"
+    },
+    {
+        "name": "Solos",
+        "value": "Playlist_Intro_Apollo_CurrentPlayer"
+    },
+    {
+        "name": "Solos",
+        "value": "Playlist_Intro_Apollo_PastPlayer"
+    },
+    {
+        "name": "Solo",
+        "value": "Playlist_Playtest_DefaultSolo"
+    },
+    {
+        "name": "Duos",
+        "value": "Playlist_Playtest_DefaultDuo"
+    },
+    {
+        "name": "Squads",
+        "value": "Playlist_Playtest_DefaultSquad"
+    },
+    {
+        "name": "Solo",
+        "value": "Playlist_Bots_DefaultSolo"
+    },
+    {
+        "name": "Duos",
+        "value": "Playlist_Bots_DefaultDuo"
+    },
+    {
+        "name": "Trios",
+        "value": "Playlist_Bots_Trios"
+    },
+    {
+        "name": "Squads",
+        "value": "Playlist_Bots_DefaultSquad"
+    },
+    {
+        "name": "Solo",
+        "value": "Playlist_Fortnite_B_Solo_G"
+    },
+    {
+        "name": "Duos",
+        "value": "Playlist_Fortnite_B_Duos_G"
+    },
+    {
+        "name": "Squads",
+        "value": "Playlist_Fortnite_B_Squads_G"
+    },
+    {
+        "name": "Solos",
+        "value": "Playlist_Intro_Apollo_05H95B"
+    },
+    {
+        "name": "Solos",
+        "value": "Playlist_Intro_Apollo_20H80B"
+    },
+    {
+        "name": "Solos",
+        "value": "Playlist_Intro_Apollo_30H70B"
+    },
+    {
+        "name": "Solos",
+        "value": "Playlist_Intro_Apollo_40H60B"
+    },
+    {
+        "name": "GibsonSquads",
+        "value": "Playlist_Gibson200_Squads_Temp"
+    },
+    {
+        "name": "High Explosives",
+        "value": "Playlist_ShowdownTournament_HighExplosives_Solo"
+    },
+    {
+        "name": "Solid Gold",
+        "value": "Playlist_ShowdownTournament_SolidGold_Solo"
+    },
+    {
+        "name": "Solo Tournament",
+        "value": "Playlist_ShowdownTournament_NoBuildBR_Solo"
+    },
+    {
+        "name": "Duos Tournament",
+        "value": "Playlist_ShowdownTournament_NoBuildBR_Duos"
+    },
+    {
+        "name": "Duos Tournament",
+        "value": "Playlist_ShowdownTournament_NoBuildBR_Alfredo_Duos"
+    },
+    {
+        "name": "Trios Tournament",
+        "value": "Playlist_ShowdownTournament_NoBuildBR_Trios"
+    },
+    {
+        "name": "Squads Tournament",
+        "value": "Playlist_ShowdownTournament_NoBuildBR_Squads"
+    },
+    {
+        "name": "High Explosives",
+        "value": "Playlist_HighExplosives_Duos"
+    },
+    {
+        "name": "Fog of War",
+        "value": "Playlist_ShowdownTournament_Sneaky_Solo"
+    },
+    {
+        "name": "Solid Gold",
+        "value": "Playlist_ShowdownTournament_SolidGold_Trio"
+    },
+    {
+        "name": "Sword Fight",
+        "value": "Playlist_ShowdownTournament_Sword_Duos"
+    },
+    {
+        "name": "Sword Fight",
+        "value": "Playlist_ShowdownTournament_Sword_Solo"
+    },
+    {
+        "name": "BoxFight Arena",
+        "value": "Playlist_ShowdownAlt_BlueFlatline16_1v1"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_Showdown_BlueFlatline16_1v1"
+    },
+    {
+        "name": "Close Encounters",
+        "value": "Playlist_ShowdownTournament_Close_Solo"
+    },
+    {
+        "name": "Battle Lab",
+        "value": "Playlist_BattleLab"
+    },
+    {
+        "name": "Battle Lab",
+        "value": "Playlist_BattleLab_Fortnitemares_MedFog"
+    },
+    {
+        "name": "Battle Lab",
+        "value": "Playlist_BattleLab_Fortnitemares_MinFog"
+    },
+    {
+        "name": "Battle Lab",
+        "value": "Playlist_BattleLab_Fortnitemares_MaxFog"
+    },
+    {
+        "name": "Arsenal",
+        "value": "Playlist_ShowdownTournament_Gungame_Solo"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_NoBuildBR_Duos"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_NoBuildBR_Solo"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_NoBuildBR_Trios"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_NoBuildBR_Squads"
+    },
+    {
+        "name": "Solo",
+        "value": "Playlist_DefaultPIE"
+    },
+    {
+        "name": "Unvaulted",
+        "value": "Playlist_Unvaulted_Trios_Showdown"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_Showdown_Creative_Duos_16"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_Creative_FFA_16"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_Showdown_Creative_FFA_16"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_Creative_Duos_16"
+    },
+    {
+        "name": "The Floor Restores",
+        "value": "Playlist_Fluoride_Solo"
+    },
+    {
+        "name": "The Floor Restores",
+        "value": "Playlist_Fluoride_Duos"
+    },
+    {
+        "name": "The Floor Restores",
+        "value": "Playlist_Fluoride_Squads"
+    },
+    {
+        "name": "The Floor Restores",
+        "value": "Playlist_Fluoride_Showdown_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Architecht_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Loadout_Solo"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_Showdown_Solo"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_Showdown_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Gen_Solo"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_LS_Solo"
+    },
+    {
+        "name": "Blitz Tournament",
+        "value": "Playlist_Showdown_Blitz_Squads"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_Showdown_Squads"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Gen_Duos"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_Solo"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Gen_Squads"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Gen_Trios"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_Squads"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_Showdown_Trios"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownAlt_Trios"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_Solo_QA"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTesting_Solo"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTesting_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTesting_Squads"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Solo"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownScrims_Solo"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownScrims_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Squads"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Trios"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownScrims_Trios"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTesting_Trios"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Loadout_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_LS_Duos"
+    },
+    {
+        "name": "Arsenal",
+        "value": "Playlist_ShowdownTournament_Gg_Reverse"
+    },
+    {
+        "name": "50v50 (Valet Off)",
+        "value": "Playlist_ShowdownTournament_50v50_ValetOff"
+    },
+    {
+        "name": "IrwinTest100",
+        "value": "Playlist_LagerIrwin100Test"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_ZW_50"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_ZW_50_Duos"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_Creative_ZW_50"
+    },
+    {
+        "name": "Arena",
+        "value": "Playlist_ShowdownAlt_Creative_ZW_50_Duos"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Solo_Test"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Duos_HZ"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Solo_QA"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_Duos_16"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_A"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_B"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_C"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_D"
+    },
+    {
+        "name": "Tournament",
+        "value": "Playlist_ShowdownTournament_Creative_E"
+    }
+]

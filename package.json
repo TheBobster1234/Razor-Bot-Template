@@ -1,0 +1,18 @@
+{
+  "name": "storm-king",
+  "version": "1.0.0",
+  "description": "Terrible fortnite bot by Distrust.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Distrust#9778",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^1.35.3",
+    "eris": "^0.16.1",
+    "js-beautify": "^1.14.4",
+    "undici": "^5.5.1"
+  }
+}
