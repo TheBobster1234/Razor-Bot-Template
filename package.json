@@ -10,9 +10,13 @@
   "author": "Distrust#9778",
   "license": "ISC",
   "dependencies": {
-    "@supabase/supabase-js": "^1.35.3",
-    "eris": "^0.16.1",
+    "@supabase/supabase-js": "^2.43.5",
+    "axios": "^1.7.9",
+    "eris": "^0.18.0",
+    "fnbr": "github:fnbrjs/fnbr.js",
+    "fortnite-api-com": "^2.2.1",
     "js-beautify": "^1.14.4",
+    "luxon": "^3.4.4",
     "undici": "^5.5.1"
   }
 }

@@ -6,7 +6,11 @@ export default {
             embed: {
                 color: config.embedColors.error,
                 title: "Not logged in!",
-                description: "You are not currently logged into an account! To login use the `/login` command."
+                description: "You are not currently logged into an account! To login use the </login:1379426917090066505> command.",
+                author: {
+                    name: bot.user.username,
+                    icon_url: bot.user.avatarURL,
+                }
             },
         }).catch(err => { return });
 
@@ -18,7 +22,11 @@ export default {
             embed: {
                 color: config.embedColors.success,
                 title: "Successfully logged out!",
-                description: "You have been logged out and all stored account data has been deleted! You can log in again using the `/login` command!"
+                description: "You have been logged out and all stored account data has been deleted! You can log in again using the </login:1254646512885956683> command!",
+                author: {
+                    name: bot.user.username,
+                    icon_url: bot.user.avatarURL,
+                }
             },
         }).catch(err => { return });
     },
@@ -28,7 +36,7 @@ export default {
         type: Constants.ApplicationCommandTypes.CHAT_INPUT
     },
     meta: {
-        loginRequired: false,
-        loadoutPopup: false
+        loginRequired: false
+        //loadoutPopup: false
     }
 };
