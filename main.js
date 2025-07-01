@@ -4,165 +4,19 @@ import { createClient } from "@supabase/supabase-js";
 import Api from "./api/index.js";
 import config from "./config.js";
 import { clearInterval } from "timers";
-import fnbr from 'fnbr'; // Import fnbr for Fortnite client
 
-const bot = new Eris(config.token, { intents: ["guildMessages"], intents: ["guilds"] });
+const bot = new Eris(config.token, { intents: ["guildMessages", "guilds"] });
 const api = new Api();
 await api.cosmetics.setupCache();
 const supabase = createClient(config.database.url, config.database.key);
-
-// Initialize global storage for Fortnite clients
-global.fortniteClients = {};
 
 bot.commands = new Map();
 bot.interactions = new Map();
 bot.autocompletes = new Map();
 
-const desiredCosmeticTypes = ["Outfit", "Emote", "Pickaxe", "Back Bling", "Shoes"];
-bot.autocompletes.set("name-or-id", (interaction, focusedOption) => {
-    const choices = api.cosmetics.cosmeticCache
-        .filter(cosmetic => desiredCosmeticTypes.includes(cosmetic.type.displayValue))
-        .filter(cosmetic => cosmetic.name.toLowerCase().includes(focusedOption.value.toLowerCase()))
-        .map(cosmetic => {
-            return { name: `${cosmetic.name} - ${cosmetic.type.displayValue}`, value: cosmetic.id.toLowerCase() }
-        })
-        .slice(0, 25);
-    interaction.acknowledge(choices);
-});
-bot.autocompletes.set("style", (interaction, focusedOption) => {
-    const itemNameOrId = interaction.data.options.find(opt => opt.name === "name-or-id").value.toLowerCase();
-    const { variants } = api.cosmetics.cosmeticCache
-        .filter(cosmetic => desiredCosmeticTypes.includes(cosmetic.type.displayValue))
-        .find(cosmetic => cosmetic.name.toLowerCase() === itemNameOrId || cosmetic.id.toLowerCase() === itemNameOrId) || []
-
-    if (!variants) {
-        return;
-    }
-
-    const choices = variants.map(variant => variant.options.map(option => {
-        return { ...option, name: `${option.name} (${option.tag}) - ${variant.channel}` }
-    }))
-        .flat()
-        .map(variant => {
-            return { name: variant.name, value: variant.tag }
-        })
-        .slice(0, 25);
-
-    console.log(choices);
-
-    if (choices) interaction.acknowledge(choices);
-});
-
-
-// Function to start a Fortnite client for a user (lobby bot)
-async function startFortniteClient(userData) {
-    try {
-        if (!userData || !userData.deviceId || !userData.accountId || !userData.secret) {
-            console.error("Invalid user data for starting Fortnite client:", userData);
-            return null;
-        }
-
-        //console.log(`Starting Fortnite client for user: ${userData.discordId} (${userData.accountId})`);
-
-        // Create device auth credentials object
-        const deviceAuth = {
-            accountId: userData.accountId,
-            deviceId: userData.deviceId,
-            secret: userData.secret
-        };
-
-        // Create Fortnite client with device auth
-        const fortniteClient = new fnbr.Client({
-            auth: {
-                deviceAuth: deviceAuth,
-                killOtherTokens: true // Allow multiple devices to be logged in at once
-            },
-            createParty: true, // Auto-create party when logging in
-            partyConfig: {
-                joinConfirmation: false, // Don't require confirmation to join the party
-                chatEnabled: true, // Enable party chat
-                joinableWhenFull: false
-            }
-        });
-
-        // Monitor when client is ready
-        fortniteClient.on('ready', () => {
-            //console.log(`Fortnite client ready: ${fortniteClient.user.displayName} (${fortniteClient.user.id})`);
-
-            // Set custom status message instead of sending chat message
-            fortniteClient.setStatus("Created by Razor! discord.gg/rgGRay6fgG");
-        });
-
-        // Handle potential errors
-        fortniteClient.on('error', (error) => {
-            console.error(`Error in Fortnite client for ${userData.discordId}:`, error);
-        });
-
-        // Log in the client
-        await fortniteClient.login();
-        //console.log(`Successfully logged in Fortnite client for ${userData.discordId} (${fortniteClient.user.displayName})`);
-
-        // Store the client in our global map
-        global.fortniteClients[userData.discordId] = fortniteClient;
-        return fortniteClient;
-
-    } catch (error) {
-        console.error(`Error starting Fortnite client for ${userData?.discordId || 'unknown user'}:`, error);
-        return null;
-    }
-}
-
-// Function to start all stored lobby bot clients
-async function startAllStoredClients() {
-    try {
-        console.log("Starting all stored lobby bot clients...");
-
-        // Get all stored lobby bot accounts from Supabase (different table)
-        const { data, error } = await supabase.from(config.database.lobbyBotsTable).select();
-
-        if (error) {
-            console.error("Error fetching lobby bot accounts from database:", error);
-            return;
-        }
-
-        if (!data || data.length === 0) {
-            console.log("No stored lobby bot accounts found in database.");
-            return;
-        }
-
-        console.log(`Found ${data.length} stored lobby bot accounts. Starting clients...`);
-
-        // Start a client for each stored account
-        const startPromises = data.map(async (userData) => {
-            try {
-                await startFortniteClient(userData);
-                return true;
-            } catch (e) {
-                console.error(`Failed to start lobby bot client for user ${userData.discordId}:`, e);
-                return false;
-            }
-        });
-
-        const results = await Promise.allSettled(startPromises);
-        const successful = results.filter(r => r.status === 'fulfilled' && r.value === true).length;
-
-        console.log(`Successfully started ${successful} out of ${data.length} lobby bot clients.`);
-
-    } catch (error) {
-        console.error("Error starting stored lobby bot clients:", error);
-    }
-}
-
 bot.once("ready", async () => {
     console.log(`${bot.user.username}#${bot.user.discriminator} is online in ${bot.guilds.size}!`);
     updateStatus();
-
-    // Start all stored lobby bot clients when the bot comes online
-    await startAllStoredClients();
-
-    //bot.deleteCommand("1361373611637735524");
-
-    //console.log(bot.guilds)
 
     const currentCommands = await bot.getCommands();
     const currentCommandNames = currentCommands.map(c => c.name);
@@ -276,7 +130,6 @@ bot.on("messageCreate", msg => {
 
 bot.on("interactionCreate", async interaction => {
     if (interaction instanceof AutocompleteInteraction) {
-        // [ { value: 'nfghewdfm', type: 3, name: 'name-or-id', focused: true } ]
         const focusedOption = interaction.data.options.find(opt => opt.focused);
 
         if (bot.autocompletes.has(focusedOption.name)) {
@@ -296,31 +149,30 @@ bot.on("interactionCreate", async interaction => {
     const command = bot.commands.get(cmd);
 
     try {
-        if (interaction.type !== 2) return;
+        if (interaction.type !== 2 || !command) return;
 
-        // Check which database table to use based on command
-        let tableName = config.database.table; // Default to ghost equip table
         let userData = null;
+        if (command.meta?.loginRequired) {
+            const { data, error } = await supabase.from(config.database.table).select().match({ discordId: interaction.userId });
+            if (error) throw new Error("A database lookup error has occured!");
+            userData = data?.[0];
 
-        if (command?.meta?.isLobbyBot) {
-            // Use lobby bots table for lobby bot commands
-            tableName = config.database.lobbyBotsTable;
+            if (!userData) {
+                return interaction.createMessage({
+                    embed: {
+                        color: config.embedColors.info,
+                        title: "Uh Oh!",
+                        description: `Looks like you're not logged in! Please use the login command to continue.`,
+                        author: { name: bot.user.username, icon_url: bot.user.avatarURL },
+                    },
+                    flags: 64
+                });
+            }
         }
 
-        const { data, error } = await supabase.from(tableName).select().match({ discordId: interaction.userId });
-        if (error) throw new Error("A database lookup error has occured!");
+        await command.exec(bot, interaction, interaction.data.options, api, config, userData, supabase);
 
-        userData = data[0];
-
-        if (command?.meta?.loginRequired && !userData) {
-            // Show appropriate login warning based on command type
-            return command?.meta?.isLobbyBot ? await showLobbyBotLoginWarn(interaction) : await showLoginWarn(interaction);
-        }
-
-        // Pass the table name to the command so it knows which database to use
-        await command.exec(bot, interaction, interaction.data.options, api, config, userData, supabase, tableName);
-
-        bot.interactions.delete(interaction.id); // clean up the interactions map so no children will be listened to once the command has finished
+        bot.interactions.delete(interaction.id); // clean up the interactions map
 
     } catch (e) {
 
@@ -339,7 +191,7 @@ bot.on("interactionCreate", async interaction => {
                 }
             },
             components: [],
-            flags: cmd === "login" || cmd === "lblogin" ? 64 : 0
+            flags: cmd === "login" ? 64 : 0
         };
 
         if (interaction.acknowledged) {
@@ -363,57 +215,9 @@ bot.on("interactionCreate", async interaction => {
     ;
 });
 
-// Original login warning for ghost equip
-async function showLoginWarn(interaction) {
-    interaction.createMessage({
-        embed: {
-            color: config.embedColors.info,
-            title: "Uh Oh!",
-            description: `Looks like you're not logged in! Use </login:1379426917090066505> to login!`,
-            author: { name: bot.user.username, icon_url: bot.user.avatarURL },
-        },
-        flags: 64
-    });
-};
-
-// New login warning for lobby bots
-async function showLobbyBotLoginWarn(interaction) {
-    interaction.createMessage({
-        embed: {
-            color: config.embedColors.info,
-            title: "To get started with lobby bots, login with the button below!",
-            description: `Get your 32 character auth code from the link below, then use the </lblogin:COMMAND_ID> command and provide the 32 character auth code.\n\n:warning: **Be quick because auth codes expire very quickly!** :warning:\n\n**This will create a lobby bot account separate from your ghost equip account.**\n\n**Click "Get auth code!" to get a auth code from your signed in Epic account.**\n\n**Click "Switch account?" if you want to get a auth code from a different Epic account.**`,
-            image: {
-                url: "attachment://auth.png"
-            },
-            author: {
-                name: 'Razor Bot',
-                icon_url: 'https://cdn.discordapp.com/avatars/706722341820039219/8fb243237e256cc3679ddeb2a423802e.webp?size=1280'
-            }
-        },
-        components: [
-            {
-                type: Constants.ComponentTypes.ACTION_ROW,
-                components: [
-                    {
-                        type: Constants.ComponentTypes.BUTTON,
-                        style: Constants.ButtonStyles.LINK,
-                        label: "Click here to get your auth code!",
-                        url: "https://www.epicgames.com/id/login?redirectUrl=https%3A%2F%2Fwww.epicgames.com%2Fid%2Fapi%2Fredirect%3FclientId%3D3f69e56c7649492c8cc29f1af08a8a12%26responseType%3Dcode&prompt=login",
-                        disabled: false
-                    }
-                ]
-            }
-        ],
-        flags: 64
-    }, { file: await fs.readFile("./assets/authCode.png"), name: "auth.png" });
-};
-
 function epicErrorParser(error) {
     const errors = {
-        //16027: `Unable to save the loadout because you do not own the item: ${error.messageVars[0]}`,
-        //1040: data.errorMessage,
-        1023: "This account is banned or has yet to accept the eula." // banned or does not posses action 'PLAY'
+        1023: "This account is banned or has yet to accept the eula."
     };
 
     return errors[error.numericErrorCode] || error.errorMessage;
@@ -426,7 +230,7 @@ function tryParseJson(data) {
     return data;
 };
 
-async function handleChildInteractionData(interaction) { // shit function that isn't at all versatile.
+async function handleChildInteractionData(interaction) {
     const parentInteractionId = interaction.message?.interaction.id;
     if (!parentInteractionId) return bot.interactions.set(interaction.id, { userId: interaction.userId });
 
@@ -478,25 +282,10 @@ function buildPresetList(count) {
     return res;
 };
 
-// Export functions for lobby bot management (can be used by commands)
-export { startFortniteClient };
-
 // Graceful shutdown handler
 process.on('SIGINT', async () => {
     console.log('Received SIGINT. Gracefully shutting down...');
-
-    // Logout all Fortnite clients
-    const logoutPromises = Object.values(global.fortniteClients).map(client => {
-        try {
-            return client.logout();
-        } catch (e) {
-            return Promise.resolve();
-        }
-    });
-
-    await Promise.allSettled(logoutPromises);
-    console.log('All Fortnite clients have been logged out.');
-
+    
     // Disconnect Discord bot
     bot.disconnect();
     console.log('Discord bot disconnected.');
