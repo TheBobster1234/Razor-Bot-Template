@@ -7,7 +7,10 @@ export default {
             embed: {
                 color: config.embedColors.info,
                 title: "Pong!",
-                author: { name: 'Razor Bot', icon_url: 'https://cdn.discordapp.com/avatars/706722341820039219/8fb243237e256cc3679ddeb2a423802e.webp?size=1280' }
+                author: {
+                    name: bot.user.username,
+                    icon_url: bot.user.avatarURL,
+                }
             },
         });
     },

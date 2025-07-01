@@ -13,7 +13,10 @@ export default {
                     color: config.embedColors.error,
                     title: "Failed!",
                     description: `You need the **"Manage Expressions"** permission to use this command.`,
-                    author: { name: 'Razor Bot', icon_url: 'https://cdn.discordapp.com/avatars/706722341820039219/8fb243237e256cc3679ddeb2a423802e.webp?size=1280' }
+                    author: {
+                        name: bot.user.username,
+                        icon_url: bot.user.avatarURL,
+                    }
                 },
                 flags: 64 // Ephemeral flag - only visible to command user
             });
@@ -58,7 +61,10 @@ export default {
                     color: config.embedColors.error,
                     title: "Failed!",
                     description: "Please provide a valid custom emoji or image URL.",
-                    author: { name: 'Razor Bot', icon_url: 'https://cdn.discordapp.com/avatars/706722341820039219/8fb243237e256cc3679ddeb2a423802e.webp?size=1280' }
+                    author: {
+                        name: bot.user.username,
+                        icon_url: bot.user.avatarURL,
+                    }
                 },
             });
         }
@@ -71,7 +77,10 @@ export default {
                     color: config.embedColors.error,
                     title: "Failed!",
                     description: "Failed to fetch the emoji. Make sure the URL is valid.",
-                    author: { name: 'Razor Bot', icon_url: 'https://cdn.discordapp.com/avatars/706722341820039219/8fb243237e256cc3679ddeb2a423802e.webp?size=1280' }
+                    author: {
+                        name: bot.user.username,
+                        icon_url: bot.user.avatarURL,
+                    }
                 },
             });
         }
@@ -92,7 +101,10 @@ export default {
                 color: config.embedColors.success,
                 title: "Success!",
                 description: `Successfully added emoji: <${createdEmoji.animated ? 'a' : ''}:${createdEmoji.name}:${createdEmoji.id}>`,
-                author: { name: 'Razor Bot', icon_url: 'https://cdn.discordapp.com/avatars/706722341820039219/8fb243237e256cc3679ddeb2a423802e.webp?size=1280' }
+                author: {
+                    name: bot.user.username,
+                    icon_url: bot.user.avatarURL,
+                }
             },
         });
     },

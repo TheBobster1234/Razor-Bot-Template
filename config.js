@@ -1,5 +1,4 @@
 export default {
-    apikey: "",
     token: "",
     channels: {
         logs: "",

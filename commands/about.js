@@ -2,7 +2,7 @@ import fs from "fs";
 import { Constants } from "eris";
 
 export default {
-    exec: (_bot, interaction, _args, _api, config, _loginData, _supabase) => {
+    exec: (bot, interaction, _args, _api, config, _loginData, _supabase) => {
         interaction.createMessage({
             embed: {
                 color: config.embedColors.info,

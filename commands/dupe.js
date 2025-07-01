@@ -3,7 +3,7 @@ import { safeDeviceAuthLogin } from "../methods/safeDeviceAuthLogin.js";
 import { DateTime } from "luxon";
 
 export default {
-    exec: async (_bot, interaction, args, api, config, loginData, _supabase) => {
+    exec: async (bot, interaction, args, api, config, loginData, _supabase) => {
         const auth = await safeDeviceAuthLogin(loginData);
         //console.log(loginData);
 

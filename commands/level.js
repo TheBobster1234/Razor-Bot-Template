@@ -3,7 +3,7 @@ import { Constants } from "eris";
 import { safeDeviceAuthLogin } from "../methods/safeDeviceAuthLogin.js";
 
 export default {
-    exec: async (_bot, interaction, _args, api, config, loginData, _supabase) => {
+    exec: async (bot, interaction, _args, api, config, loginData, _supabase) => {
         const auth = await safeDeviceAuthLogin(loginData);
 
         const brProfile = await api.profileOperation(auth.account_id, "athena", "QueryProfile", auth.access_token, {});
@@ -19,17 +19,20 @@ export default {
                 //title: "**Levels:**",
                 fields: [
                     {
-                        name: `Battle Royale`, 
-                        value: brLevel, 
+                        name: `Battle Royale`,
+                        value: brLevel,
                         inline: false
                     },
                     {
-                        name: 'Account Level', 
-                        value: accountLevel, 
+                        name: 'Account Level',
+                        value: accountLevel,
                         inline: false
                     }
                 ],
-                author: { name: 'Razor Bot', icon_url: 'https://cdn.discordapp.com/avatars/706722341820039219/8fb243237e256cc3679ddeb2a423802e.webp?size=1280' }
+                author: {
+                    name: bot.user.username,
+                    icon_url: bot.user.avatarURL,
+                }
             },
         });
     },

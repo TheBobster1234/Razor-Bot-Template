@@ -2,7 +2,7 @@ import { Constants } from "eris";
 import { safeDeviceAuthLogin } from "../methods/safeDeviceAuthLogin.js";
 
 export default {
-    exec: async (_bot, interaction, _args, api, config, loginData, _supabase) => {
+    exec: async (bot, interaction, _args, api, config, loginData, _supabase) => {
         const auth = await safeDeviceAuthLogin(loginData);
         const id = interaction.data.options[0].value;
 
@@ -12,7 +12,11 @@ export default {
             embed: {
                 color: config.embedColors.success,
                 title: "Successfully favorited playlist!",
-                description: `Playlist: \`${id}\` has been successfully added to your in-game favorites list!`
+                description: `Playlist: \`${id}\` has been successfully added to your in-game favorites list!`,
+                author: {
+                    name: bot.user.username,
+                    icon_url: bot.user.avatarURL,
+                }
             },
         }).catch(err => { return });
     },
