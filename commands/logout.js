@@ -1,7 +1,7 @@
 import { Constants } from "eris";
 
 export default {
-    exec: async (_bot, interaction, _args, _api, config, loginData, supabase) => {
+    exec: async (bot, interaction, _args, _api, config, loginData, supabase) => {
         if (!loginData) return interaction.createMessage({
             embed: {
                 color: config.embedColors.error,
