@@ -1,5 +1,5 @@
-# storm king
+# Razor Template
 
-shitty fortnite utility bot
+Shitty fortnite utility bot
 
-join https://discord.gg/astra-921104988363694130 <3
+Join [Razor's Discord](https://discord.gg/rgGRay6fgG) <3
