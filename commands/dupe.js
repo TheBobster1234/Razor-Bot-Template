@@ -97,7 +97,7 @@ export default {
     },
     info: {
         name: "dupe",
-        description: "Does funny STW dupe! (Needs a glitched homebase)"
+        description: "Does funny Save The World dupe!"
     },
     meta: {
         loginRequired: true,
