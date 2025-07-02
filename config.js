@@ -1,5 +1,5 @@
 export default {
-    token: "",
+    token: "YOUR_DISCORD_BOT_TOKEN_HERE",
     channels: {
         logs: "",
         errors: ""
