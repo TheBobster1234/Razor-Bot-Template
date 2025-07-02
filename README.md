@@ -2,7 +2,7 @@
 
 Shitty Fortnite utility bot
 
-Uses Supabase as the database.
+Uses [Supabase](https://supabase.com/) as the database.
 
 Not going to provide any help.
 
